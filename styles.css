@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*백그라운드 컬러*/
+* {
+    background-color: rgb(190, 22, 22);
+}
+
+.main{
+    position: relative;
+    width: 50%;s
+}
+
+.main::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#id weather{
+    background-color: aqua;
+}
