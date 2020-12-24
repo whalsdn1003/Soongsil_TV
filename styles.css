@@ -10,7 +10,7 @@
     width: 50%;s
 }
 
-.main::after{
+.main:after{
     content: "";
     display: block;
     padding-bottom: 100%;
