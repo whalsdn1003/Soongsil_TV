@@ -2,20 +2,24 @@
 
 /*백그라운드 컬러*/
 * {
-    background-color: rgb(190, 22, 22);
+    background-color: #343840;
 }
 
 .main{
     position: relative;
-    width: 50%;s
+    width: 50%;
 }
 
-.main:after{
+.weather {
+    width: 200px;
+    background-color: aqua;
+    border:2px solid #1bf;
+    padding:0.5em;
+    line-height: 1em;
+    border-radius:0.5em;
+}
+/*.main:after{
     content: "";
     display: block;
     padding-bottom: 100%;
-}
-
-#id weather{
-    background-color: aqua;
-}
+}*/
