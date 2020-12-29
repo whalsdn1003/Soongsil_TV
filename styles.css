@@ -25,7 +25,11 @@ div {
 }
 /*각각의 컬러*/
 .Weather {
+    width: 600px;
     background-color: aqua;
 }
 
-
+.Humidity {
+    width:500px;
+    background-color: aqua;
+}
